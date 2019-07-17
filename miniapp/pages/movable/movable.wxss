@@ -1,0 +1,27 @@
+.box view{
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+}
+
+movable-area{
+  width: 100%;
+}
+
+movable-view{
+  width:92%;
+  height:50px;
+  line-height: 50px;
+  background-color:#fff;
+  border-top:1px solid #dedede;
+  border-bottom:1px solid #dedede;
+  margin-top:-2px;
+  padding:0px 4%;
+}
+.active{
+  background-color:#f8f8f8;
+}
+
+.high-level{
+  z-index: 999;
+}

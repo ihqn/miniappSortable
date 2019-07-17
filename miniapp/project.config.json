@@ -1,0 +1,72 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.94",
+	"appid": "wx8cee4f452ac9c087",
+	"projectname": "ihqnTest",
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"id": -1,
+					"name": "微信",
+					"pathName": "pages/wchat/wchat",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "webview",
+					"pathName": "pages/webview/webview",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "wxlogin",
+					"pathName": "pages/wxlogin/wxlogin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/test/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "朋",
+					"pathName": "pages/wxlogin/wxlogin",
+					"scene": null
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+<view class="section">
+  <scroll-view  scroll-y="{{canScroll}}" bindscroll="bindscroll" style='height: 500px'>
+  <movable-area style="height: {{data.length * _lineHeight + 'px'}}">
+    <movable-view 
+    wx:for="{{data}}" 
+    class="{{curIndex == index ?  'high-level' : ''}} {{ismove   && (curIndex == index)?  'active' : ''}}"
+    bindtouchend='endMove' 
+    bindtouchstart='stratMove' 
+    x="{{item.x}}" y="{{item.y}}" 
+    data-y="{{item.y}}" 
+    direction="all">
+      <view >{{item.text}}</view>
+    </movable-view>
+  </movable-area>
+  </scroll-view>
+</view>

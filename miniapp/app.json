@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/movable/movable"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#777",
+    "navigationBarTitleText": "demo池-拖动排序",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}
